@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Header = styled.div`
   display: flex;
   justify-content: center;
-	margin-bottom: 50px;
+  margin-bottom: 50px;
   img {
     width: 350px;
     height: auto;
@@ -120,6 +120,9 @@ export const Abilities = styled.div`
   display: flex;
   img {
     margin-right: 5px;
+    :last-child {
+      margin-right: 0;
+    }
   }
 `;
 export const TableRow = styled.tr`
