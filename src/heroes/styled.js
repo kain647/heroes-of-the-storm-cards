@@ -15,11 +15,11 @@ export const ContainerBackground = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
   img.fullscreen {
     position: fixed;
     top: 0;
     width: 100%;
+	  min-height: 100vh;
     z-index: 0;
   }
 `;
