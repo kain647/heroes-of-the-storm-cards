@@ -27,7 +27,7 @@ const Heroes = () => {
       universe: "Warcraft",
       primary: ["blowSquare.png", "dynamiteSquare.png", "wildSquare.png"],
       heroic: ["hoardaPult.png", "shockwaveSquare.png"],
-      trait: ["hoardSquare.png"]
+      trait: ["hoardaSquare.png"]
     },
     {
       photoHero: "murky.jpg",
