@@ -5,9 +5,8 @@ export const Header = styled.div`
   justify-content: center;
 	margin-bottom: 50px;
   img {
-	  --size: 20%;
-    width: var(--size);
-    height: var(--size);
+    width: 350px;
+    height: auto;
     z-index: 1;
   }
 `;
