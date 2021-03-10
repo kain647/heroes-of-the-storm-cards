@@ -88,9 +88,24 @@ const Heroes = () => {
       ],
       heroic: ["wailingArrow.png", "mindControl.png"],
       trait: ["blackArrows.png"]
+    },
+    {
+      photoHero: "junkrat.jpg",
+      nameHero: "Junkrat",
+      role: "Ranged Assassin",
+      difficulty: "Medium",
+      universe: "Overwatch",
+      primary: [
+        "fragLauncher.png",
+        "concussionMine.png",
+        "steelTrap.png",
+        "detonateMine.png"
+      ],
+      heroic: ["ripTire.png", "rocketRide.png"],
+      trait: ["totalMayhem.png"]
     }
   ];
-  const settings = {
+  const settingsSlider = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -104,7 +119,7 @@ const Heroes = () => {
         <img src={`upload/logo.png`} />
       </Header>
       <HeroCard>
-        <Slider {...settings}>
+        <Slider {...settingsSlider}>
           {heroesCards.map(heroesCard => {
             return <HeroesCard {...heroesCard} key={heroesCard.photoHero} />;
           })}
